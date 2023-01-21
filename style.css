@@ -350,6 +350,31 @@ footer .credits a{
     .contact .row form{
         padding: 0;
     }
+    footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    footer .socials{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+        margin-top: 6rem;
+    }
+    
+    footer .links{
+        display: flex;
+        padding-top: 5rem;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    footer .credits{
+        display: none;
+    }
+
+
 }
 
 
