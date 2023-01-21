@@ -403,3 +403,24 @@ footer .credits a{
         display: none;
     }
 }
+@media (max-width: 350px){
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    footer .socials{
+        display: flex;
+        flex-direction: column;
+        margin-right: 5rem;
+    }
+    
+    footer .links{
+        display: flex;
+        padding-top: 5rem;
+        flex-direction: column;
+    }
+    footer .credits{
+        display: none;
+    }
+} 
